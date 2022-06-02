@@ -7,7 +7,7 @@
 import streamlit as st
 st.title("SIMPLE CALCULATOR")
 st.text("Created by Aviti Kulaya")
-app_mode = st.sidebar.selectbox('Select Page',['Age Calculator','Area of a trapezium','Perimeter of a trapezium','Degrees-Radians Converter','Radians-Degrees Converter'])
+app_mode = st.sidebar.selectbox('Select what you want to calculate',['Age Calculator','Area of a trapezium','Perimeter of a trapezium','Degrees-Radians Converter','Radians-Degrees Converter'])
 if app_mode=='Age Calculator':
     st.text("It is easier to know your years old using this calculator")
     Current_year = int(st.number_input("Enter your current year:"))
